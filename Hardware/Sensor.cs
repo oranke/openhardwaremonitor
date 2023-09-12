@@ -116,8 +116,10 @@ namespace OpenHardwareMonitor.Hardware {
           } catch (EndOfStreamException) { }
         }
       } catch { }
-      if (values.Count > 0)
+      if (values.Count > 0) {
         AppendValue(float.NaN, DateTime.UtcNow);
+      }
+        
 
       // remove the value string from the settings to reduce memory usage
       settings.Remove(name);
