@@ -14,8 +14,13 @@ So I decided to keep project in `.NET 4.5` and apply patches after 0.9.6.
 
 # Changes
 
-2023.9.12. 
+## 2023.9.12. 
 Add suppor for Intel Core 11~13th
 https://github.com/openhardwaremonitor/openhardwaremonitor/pull/1475/commits
 
-https://github.com/oranke/openhardwaremonitor.git
+
+## 2023.10.4
+Add Raptor Lane-N (Intel COre 13th) support.  
+https://github.com/LibreHardwareMonitor/LibreHardwareMonitor  
+https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/commit/a6f28dc7e6b7fd8333d7257bf86ab21d0829beda  
+

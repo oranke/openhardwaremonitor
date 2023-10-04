@@ -237,8 +237,9 @@ namespace OpenHardwareMonitor.Hardware.CPU {
                 microarchitecture = Microarchitecture.RocketLake;
                 tjMax = GetTjMaxFromMSR();
                 break;
-              case 0xB7: // Raptor lake family
-              case 0xBA:
+              case 0xB7: // Raptor lake family (7nm)
+              case 0xBA: // Raptor Lake-P (7nm)
+              case 0xBF: // Raptor Lake-N (7nm)
                 microarchitecture = Microarchitecture.RaptorLake;
                 tjMax = GetTjMaxFromMSR();
                 break;
